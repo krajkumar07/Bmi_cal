@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  background-color: rgb(164, 213, 234);
+}
+.App-header {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-style: oblique;
+  background-image:url("https://images.everydayhealth.com/images/everything-you-need-know-about-fitness-1440x810.jpg");
+}
+.div {
+  box-shadow: 0px 0px 12px #d72b2b;
+  border-radius: 8px;
+  padding:1rem;
+  background-color:#f396c6 ;
+}
+input{
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 8px 0;
+  border-radius: 8px;
+}
+.help{
+  border-radius: 4px;
+}
+.center{
+  text-align: center;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.calculator {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 300px;
+  background-color: #1b0e14;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: #bde1f3;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  background-color: #e0e0e0;
+  border: 1;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d3d3d3;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+.hello{
+  background-color: #bde1f3;
+}
+.class{
+  background-color: rgb(239, 244, 245);
+  border: 25px solid rgb(234, 242, 234);
+}
+.img-div{
+  text-align: center;
+}
+.img-div img{
+  height: 150px;
+}
+
+
+
+
